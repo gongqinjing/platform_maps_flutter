@@ -12,7 +12,7 @@ class BitmapDescriptor {
   /// Creates a BitmapDescriptor that refers to the default marker image.
   static BitmapDescriptor get defaultMarker {
     if (Platform.isIOS) {
-      return BitmapDescriptor._(appleMaps.BitmapDescriptor.defaultAnnotation);
+      return BitmapDescriptor._(appleMaps.BitmapDescriptor.markerAnnotation);
     } else if (Platform.isAndroid) {
       return BitmapDescriptor._(googleMaps.BitmapDescriptor.defaultMarker);
     }
