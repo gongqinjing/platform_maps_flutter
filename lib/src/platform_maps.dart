@@ -179,16 +179,16 @@ class _PlatformMapState extends State<PlatformMap> {
         padding: widget.padding ?? EdgeInsets.zero,
         markers: widget.markers != null
             ? Marker.toGoogleMapsMarkerSet(widget.markers)
-            : widget.markers,
+            : const <googleMaps.Marker>{},
         polylines: widget.polylines != null
             ? Polyline.toGoogleMapsPolylines(widget.polylines)
-            : widget.polylines,
+            : const <googleMaps.Polyline>{},
         polygons: widget.polygons != null
             ? Polygon.toGoogleMapsPolygonSet(widget.polygons)
-            : widget.polygons,
+            : const <googleMaps.Polygon>{},
         circles: widget.circles != null
             ? Circle.toGoogleMapsCircleSet(widget.circles)
-            : widget.circles,
+            : const <googleMaps.Circle>{},
         gestureRecognizers: widget.gestureRecognizers,
         onCameraIdle: widget.onCameraIdle,
         myLocationButtonEnabled: widget.myLocationButtonEnabled,
