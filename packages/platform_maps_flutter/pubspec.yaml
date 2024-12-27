@@ -24,17 +24,17 @@ dependencies:
   platform_maps_flutter_apple:
     git:
       url: https://github.com/gongqinjing/platform_maps_flutter.git
-      ref: 8dfd59a57b41ab0fd69e0cf891397287bc77989a
+      ref: 98bdc4b0ea4e189ff100bd268729772c7557f542
       path: packages/platform_maps_flutter_apple
   platform_maps_flutter_google_android:
     git:
       url: https://github.com/gongqinjing/platform_maps_flutter.git
-      ref: 8dfd59a57b41ab0fd69e0cf891397287bc77989a
+      ref: 98bdc4b0ea4e189ff100bd268729772c7557f542
       path: packages/platform_maps_flutter_google_android
   platform_maps_flutter_platform_interface:
     git:
       url: https://github.com/gongqinjing/platform_maps_flutter.git
-      ref: 8dfd59a57b41ab0fd69e0cf891397287bc77989a
+      ref: 98bdc4b0ea4e189ff100bd268729772c7557f542
       path: packages/platform_maps_flutter_platform_interface
 
 dev_dependencies:
