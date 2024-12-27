@@ -23,7 +23,7 @@ dependencies:
   apple_maps_flutter:
     git:
       url: https://github.com/gongqinjing/apple_maps_flutter.git
-      ref: 266b9655be370e36ed6e4c7bce883e103a3ac588
+      ref: 8dfd59a57b41ab0fd69e0cf891397287bc77989a
   platform_maps_flutter_platform_interface: ^1.0.0-beta
 
 dev_dependencies:
