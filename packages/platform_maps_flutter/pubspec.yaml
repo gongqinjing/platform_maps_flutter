@@ -24,6 +24,7 @@ dependencies:
   platform_maps_flutter_apple:
     git:
       url: https://github.com/gongqinjing/platform_maps_flutter.git
+      ref: 91e14f317bbf9782f2c9e5fba4463df160006a31
       path: packages/platform_maps_flutter_apple
   platform_maps_flutter_google_android: ^1.0.0-beta
   platform_maps_flutter_platform_interface: ^1.0.0-beta
